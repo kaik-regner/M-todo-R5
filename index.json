@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método R5 — IA para Criadores de Conteúdo</title>
+    <meta name="description"
+        content="O Método R5 é um agente de inteligência artificial criado para ajudar criadores de conteúdo a transformar ideias simples em roteiros estruturados e envolventes.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER FIXO / HOTBAR -->
+    <header class="site-header glass">
+        <div class="header-container">
+            <img src="logo.png" alt="Método R5" class="header-logo">
+            <a href="#offer" class="btn-header">Garantir Acesso</a>
+        </div>
+    </header>
+
+    <!-- Canvas for stars background -->
+    <canvas id="starsCanvas"></canvas>
+
+    <div class="glow-bg"></div>
+
+    <main class="container">
+
+        <!-- SECTION 1: HERO -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <span class="badge">Acesso Antecipado . IA Agente</span>
+                <h1 class="headline">Transforme qualquer <span class="text-gradient">ideia</span> em um roteiro que
+                    prende atenção.</h1>
+                <p class="subheadline">O Método R5 é um agente de inteligência artificial criado para ajudar criadores
+                    de conteúdo a transformar ideias simples em roteiros estruturados e envolventes.</p>
+                <div class="cta-wrapper">
+                    <a href="#offer" class="btn btn-primary">Quero acessar o Método R5</a>
+                    <p class="subtext">Acesso imediato após a compra.</p>
+                </div>
+            </div>
+
+            <div class="hero-mockup">
+                <div class="mockup-window glass">
+                    <div class="mockup-header">
+                        <div class="dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="title">R5 Agent</div>
+                    </div>
+                    <div class="chat-container">
+                        <!-- User message -->
+                        <div class="message user-message">
+                            <div class="message-label">IDEIA DO USUÁRIO:</div>
+                            <div class="message-content">"As pessoas sabotam o próprio futuro"</div>
+                        </div>
+
+                        <!-- AI message -->
+                        <div class="message ai-message typing-effect">
+                            <div class="message-label text-gradient">IA RESPONDENDO:</div>
+                            <div class="message-content">
+                                <div class="r-block highlight-1">
+                                    <strong>R1 — GANCHO</strong>
+                                    <p>"Você pode estar sabotando o próprio futuro sem perceber..."</p>
+                                </div>
+                                <div class="r-block">
+                                    <strong>R2 — IDENTIFICAÇÃO</strong>
+                                    <p>"Talvez você já tenha sentido que poderia fazer mais, mas algo te trava."</p>
+                                </div>
+                                <div class="r-block">
+                                    <strong>R3 — EMOÇÃO</strong>
+                                    <p>"A verdade é que a maioria das pessoas perde oportunidades por medo ou
+                                        procrastinação."</p>
+                                </div>
+                                <div class="r-block">
+                                    <strong>R4 — DIREÇÃO</strong>
+                                    <p>"Quando você entende isso, começa a agir de forma diferente."</p>
+                                </div>
+                                <div class="r-block highlight-2">
+                                    <strong>R5 — CTA</strong>
+                                    <p>"Se isso fez sentido para você, comece a observar suas próprias decisões."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: IDENTIFICAÇÃO DO PROBLEMA -->
+        <section class="problem section-padding reveal">
+            <h2 class="section-title">A pior sensação para quem cria conteúdo é abrir o celular e <span
+                    class="text-muted">não saber o que postar.</span></h2>
+            <p class="section-desc">Você tem ideias, reflexões e mensagens importantes, mas na hora de gravar, não
+                consegue organizar isso em um roteiro que prende atenção.</p>
+
+            <ul class="problem-list">
+                <li><span class="icon">✕</span> Ideias soltas e desorganizadas</li>
+                <li><span class="icon">✕</span> Ganchos fracos que não param o scroll</li>
+                <li><span class="icon">✕</span> Vídeos longos que não prendem até o fim</li>
+                <li><span class="icon">✕</span> Falta de clareza e estrutura</li>
+                <li><span class="icon">✕</span> Frustração de passar horas gravando e floppar</li>
+            </ul>
+
+            <h3 class="final-phrase">Criar conteúdo não é apenas ter ideias.<br><span class="highlight-text">É saber
+                    estruturar a mensagem da forma certa.</span></h3>
+        </section>
+
+        <!-- SECTION 3: RECURSOS INCLUSOS (Ex-MÉTODO R5) -->
+        <section class="method section-padding reveal" id="method">
+            <h2 class="section-title text-gradient">O que você vai receber</h2>
+            <p class="section-desc">Um kit completo de inteligência artificial desenhado para facilitar a sua criação de
+                conteúdo.</p>
+
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <div class="step-content">
+                        <h3>Agente Método R5</h3>
+                        <p>IA treinada para transformar ideias em roteiros estruturados.</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <div class="step-content">
+                        <h3>Gerador de Ganchos</h3>
+                        <p>Cria ganchos que fazem parar o scroll.</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <div class="step-content">
+                        <h3>Gerador de Ideias</h3>
+                        <p>Nunca mais fique sem conteúdo.</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-num">4</div>
+                    <div class="step-content">
+                        <h3>Otimizador de Roteiro</h3>
+                        <p>Melhora roteiros que você já escreveu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: O QUE O AGENTE FAZ -->
+        <section class="benefits section-padding reveal">
+            <h2 class="section-title">O que você pode fazer com o agente</h2>
+
+            <div class="benefits-grid">
+                <div class="benefit-item glass">
+                    <p>Transformar ideias em roteiros completos</p>
+                </div>
+                <div class="benefit-item glass">
+                    <p>Gerar ideias de vídeos</p>
+                </div>
+                <div class="benefit-item glass">
+                    <p>Melhorar roteiros que você já criou</p>
+                </div>
+                <div class="benefit-item glass">
+                    <p>Criar ganchos que prendem atenção</p>
+                </div>
+                <div class="benefit-item glass">
+                    <p>Estruturar conteúdos com mais clareza</p>
+                </div>
+                <div class="benefit-item glass">
+                    <p>Ler métricas de vídeos e dizer exatamente o que funcionou e o que errou</p>
+                </div>
+                <div class="benefit-item glass">
+                    <p>Entender a sua persona e escrever roteiros no seu tom de voz exato</p>
+                </div>
+                <div class="benefit-item glass">
+                    <p>Transformar aquela reflexão solta do dia a dia em retenção e novos seguidores</p>
+                </div>
+            </div>
+
+            <h3 class="final-phrase">É como ter um <span class="highlight-text">estrategista de conteúdo</span>
+                disponível 24 horas por dia.</h3>
+        </section>
+
+        <!-- SECTION 5: COMO FUNCIONA -->
+        <section class="how-it-works section-padding reveal">
+            <h2 class="section-title">Simples de usar</h2>
+
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <div class="step-content">
+                        <h3>Passo 1</h3>
+                        <p>Digite sua ideia.</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <div class="step-content">
+                        <h3>Passo 2</h3>
+                        <p>O agente organiza tudo usando o Método R5.</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <div class="step-content">
+                        <h3>Passo 3</h3>
+                        <p>Receba um roteiro pronto para gravar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7 & 8: ANCORAGEM DE VALOR E CTA -->
+        <section class="offer section-padding reveal" id="offer">
+            <div class="offer-box glass glow-border">
+                <h2 class="section-title">Tudo que você precisa para crescer</h2>
+
+                <div class="bonus-box glass"
+                    style="margin: 2rem 0; padding: 1.5rem; border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 12px; background: rgba(20, 20, 25, 0.5);">
+                    <h3 class="highlight-text"
+                        style="font-size: 1.2rem; margin-bottom: 0.8rem; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        Bônus: Estratégia de Crescimento Orgânico</h3>
+                    <p style="font-size: 0.95rem; color: #a1a1aa; margin-bottom: 0.8rem;">Um guia prático com os
+                        segredos para transformar os seus roteiros em alcance, seguidores e engajamento orgânico real.
+                    </p>
+                    <p style="font-size: 0.9rem;"><span
+                            style="text-decoration: line-through; color: #71717a; margin-right: 8px;">Valor:
+                            $29.90</span> <strong style="color: #4ade80;">Gratuito com o Método R5</strong></p>
+                </div>
+
+                <p class="offer-transition">Todo esse pacote hoje por apenas:</p>
+
+                <div class="price-anchor"
+                    style="text-decoration: line-through; color: #71717a; font-size: 1.5rem; margin-bottom: -15px;">
+                    $47.80
+                </div>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">3.48</span>
+                </div>
+
+                <div class="offer-details">
+                    <span>✓ Pagamento único.</span>
+                    <span>✓ Acesso imediato.</span>
+                </div>
+
+                <div class="cta-final">
+                    <h3 class="cta-title">Comece agora</h3>
+                    <a href="https://pay.cakto.com.br/awg5gzv_800999" class="btn btn-primary btn-large btn-glow">Quero
+                        acessar o Método R5</a>
+                    <p class="subtext">Acesso liberado imediatamente após a compra.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 9: REPITCH (Pilar de Decisão) -->
+        <section class="repitch section-padding reveal">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h2 class="section-title">Ainda está em dúvida? Pense nisso...</h2>
+                <p class="section-desc" style="margin-bottom: 2rem;">Todo dia que você passa travado na criação de
+                    conteúdo é um dia a menos de crescimento pro seu perfil.</p>
+                <div class="repitch-content glass"
+                    style="padding: 2.5rem; border-radius: 12px; text-align: left; border-left: 4px solid var(--primary);">
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: #e4e4e7;">
+                        Você pode continuar tentando adivinhar o que funciona, gravando vídeos sem estrutura, testando
+                        ganchos fracos e perdendo horas do seu dia para ter poucas visualizações...
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: #e4e4e7;">
+                        <strong class="highlight-text">Ou você pode ter um estrategista focado 24 horas por dia em
+                            transformar suas ideias soltas em roteiros profissionais que prendem e encantam sua
+                            audiência.</strong>
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #e4e4e7;">
+                        Tudo isso por menos que o valor de um cafézinho. O risco é zero, e o retorno na qualidade do seu
+                        conteúdo é imediato. A decisão agora é sua.
+                    </p>
+                </div>
+                <div style="margin-top: 3rem;">
+                    <a href="https://pay.cakto.com.br/awg5gzv_800999" class="btn btn-primary">Sim, eu quero destravar
+                        meu conteúdo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 10: FAQ -->
+        <section class="faq section-padding reveal" id="faq" style="max-width: 800px; margin: 0 auto;">
+            <h2 class="section-title text-center">Perguntas Frequentes</h2>
+
+            <div class="faq-container" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem;">
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        1. Como vou receber o acesso ao Método R5?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">Logo após a aprovação do pagamento,
+                        você receberá um e-mail com todas as instruções de acesso imediato à plataforma e ao agente de
+                        Inteligência Artificial.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        2. O pagamento é único ou mensalidade?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">O pagamento de $3.48 é
+                        <strong>único</strong>. Não há taxas escondidas ou mensalidades surpresas. Você paga uma vez e
+                        tem acesso liberado.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        3. E se eu não gostar? Tem garantia?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">Sim! Você tem 7 dias de garantia
+                        incondicional. Se você não gostar do Método R5, basta enviar um único e-mail para o suporte, e
+                        nós devolveremos 100% do seu dinheiro, sem burocracia.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        4. Funciona para o meu nicho?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">O Método R5 funciona para qualquer
+                        nicho de mercado. Ele foi treinado com padrões universais de retenção e estrutura narrativa
+                        humana. Seja você médico, advogado, gamer, comediante ou consultor, a IA adaptará o roteiro para
+                        o seu assunto.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        5. Quais métodos de pagamento são aceitos?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">Você pode pagar no Cartão de Crédito
+                        e via PIX para ter acesso imediato. Esses são os métodos mais rápidos e seguros.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        6. Preciso saber de programação ou edição complexa?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">De forma alguma. O Agente Método R5
+                        foi criado para ser extremamente simples. Você literalmente envia a sua "ideia" como se
+                        conversasse no WhatsApp, e a IA te devolve o roteiro estruturado. Sem termos técnicos.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        7. O bônus eu recebo quando?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">A Estratégia de Crescimento Orgânico
+                        (Bônus Exclusivo) é liberada imediatamente junto com o acesso ao agente Método R5, assim que seu
+                        pagamento é confirmado.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        8. Preciso de um computador avançado para usar?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">Não. O Método R5 roda na nuvem. Você
+                        só precisa de uma conexão à internet. Você pode criar roteiros usando o seu celular, tablet, ou
+                        qualquer computador básico.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        9. Eu serei cobrado mais alguma coisa lá na frente?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">Nenhuma cobrança adicional será feita
+                        sobre este acesso. Você garante tudo por $3.48.</p>
+                </details>
+
+                <details class="faq-item glass" style="padding: 1.5rem; border-radius: 8px; cursor: pointer;">
+                    <summary
+                        style="font-weight: 600; font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                        10. E se eu tiver dúvidas, terei suporte?
+                        <span style="color: var(--primary);">+</span>
+                    </summary>
+                    <p style="margin-top: 1rem; color: #a1a1aa; line-height: 1.6;">Absolutamente. Nossa equipe de
+                        suporte estará a apenas um e-mail de distância para resolver qualquer problema de acesso que
+                        você encontre.</p>
+                </details>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Método R5. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
