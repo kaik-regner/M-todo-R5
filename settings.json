@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método R5 — IA para Criadores de Conteúdo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="space"></canvas>
+
+    <!-- 1️⃣ HERO -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">IA para Criadores de Conteúdo</div>
+                <h1 class="headline">Transforme qualquer ideia em um roteiro que <span>prende atenção em segundos.</span></h1>
+                <p class="subheadline">O Método R5 é um agente de IA criado para creators que querem estruturar vídeos com mais retenção e clareza.</p>
+                <div class="hero-actions">
+                    <a href="https://pay.cakto.com.br/awg5gzv_800999" class="cta-button" target="_blank">Acessar o Método R5</a>
+                </div>
+                <p class="micro-proof">
+                    <span class="avatars-mini">👥</span> creators já usam estruturas como essa para organizar ideias e produzir conteúdo com consistência.
+                </p>
+            </div>
+            
+            <!-- 2️⃣ IMAGEM DO PRODUTO (Mockup) -->
+            <div class="hero-visual">
+                <div class="mockup-glow"></div>
+                <div class="ai-mockup">
+                    <div class="mockup-header">
+                        <div class="dots"><span></span><span></span><span></span></div>
+                        <div class="title">Agente Método R5</div>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="chat-message user">
+                            <div class="bubble">
+                                <span class="label">IDEIA DO USUÁRIO:</span>
+                                <p>"As pessoas sabotam o próprio futuro"</p>
+                            </div>
+                        </div>
+                        <div class="chat-message ai">
+                            <div class="avatar ai-avatar">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                            </div>
+                            <div class="bubble outline">
+                                <span class="label accent">IA GERANDO:</span>
+                                <div class="script-output">
+                                    <div class="script-item"><span class="r-tag">R1 – GANCHO</span> "Você não está falhando por falta de talento..."</div>
+                                    <div class="script-item"><span class="r-tag">R2 – IDENTIFICAÇÃO</span> "Talvez você também já tenha sentido isso..."</div>
+                                    <div class="script-item"><span class="r-tag">R3 – EMOÇÃO</span> "O problema é que ninguém percebe quando está se sabotando..."</div>
+                                    <div class="script-item"><span class="r-tag">R4 – DIREÇÃO</span> "Quando você entende isso, começa a agir diferente..."</div>
+                                    <div class="script-item"><span class="r-tag">R5 – CTA</span> "Se isso fez sentido para você, comece a observar..."</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3️⃣ IDENTIFICAÇÃO DO PROBLEMA -->
+    <section class="problems">
+        <div class="container container-sm">
+            <h2 class="section-title">A maioria dos criadores sabe o que quer falar…<br><span class="muted-text">mas não sabe como estruturar o vídeo.</span></h2>
+            
+            <ul class="problem-list">
+                <li>ideias soltas</li>
+                <li>vídeos que não prendem atenção</li>
+                <li>dificuldade em criar ganchos</li>
+                <li>falta de estrutura</li>
+            </ul>
+            
+            <p class="highlight-text">Criar conteúdo não é só ter ideias.<br>É saber organizar a mensagem da forma certa.</p>
+        </div>
+    </section>
+
+    <!-- 4️⃣ APRESENTAÇÃO DO MÉTODO -->
+    <section class="method">
+        <div class="container">
+            <h2 class="section-title text-center">O Método R5</h2>
+            <p class="section-subtitle">Uma estrutura de criação de conteúdo baseada em 5 gatilhos de retenção.</p>
+            
+            <div class="method-cards">
+                <div class="m-card">
+                    <div class="m-step text-gradient">R1</div>
+                    <div class="m-content">
+                        <h3>Ruptura</h3>
+                        <p>Gancho que faz parar o scroll.</p>
+                    </div>
+                </div>
+                <div class="m-card">
+                    <div class="m-step text-gradient">R2</div>
+                    <div class="m-content">
+                        <h3>Reconhecimento</h3>
+                        <p>O público se identifica com a mensagem.</p>
+                    </div>
+                </div>
+                <div class="m-card">
+                    <div class="m-step text-gradient">R3</div>
+                    <div class="m-content">
+                        <h3>Reação emocional</h3>
+                        <p>Impacto ou reflexão.</p>
+                    </div>
+                </div>
+                <div class="m-card">
+                    <div class="m-step text-gradient">R4</div>
+                    <div class="m-content">
+                        <h3>Redirecionamento</h3>
+                        <p>Nova perspectiva.</p>
+                    </div>
+                </div>
+                <div class="m-card">
+                    <div class="m-step text-gradient">R5</div>
+                    <div class="m-content">
+                        <h3>Reforço</h3>
+                        <p>Final com direção ou CTA.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ O QUE O AGENTE FAZ -->
+    <section class="features">
+        <div class="container container-sm">
+            <h2 class="section-title">O que você consegue fazer com o agente</h2>
+            
+            <ul class="feature-list">
+                <li><span class="bullet-dot"></span> transformar ideias em roteiros completos</li>
+                <li><span class="bullet-dot"></span> gerar ideias de vídeos</li>
+                <li><span class="bullet-dot"></span> melhorar roteiros existentes</li>
+                <li><span class="bullet-dot"></span> criar ganchos fortes</li>
+                <li><span class="bullet-dot"></span> estruturar conteúdo rapidamente</li>
+            </ul>
+            
+            <div class="strong-phrase">
+                É como ter um estrategista de conteúdo trabalhando com você 24h.
+            </div>
+        </div>
+    </section>
+
+    <!-- 6️⃣ BLOCO DE DEMONSTRAÇÃO -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title text-center">Veja como funciona</h2>
+            
+            <div class="steps-grid">
+                <div class="step-box">
+                    <div class="step-num">Passo 1</div>
+                    <p>Digite sua ideia</p>
+                </div>
+                <div class="step-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+                <div class="step-box active-step">
+                    <div class="step-num text-gradient">Passo 2</div>
+                    <p>A IA organiza usando o Método R5</p>
+                </div>
+                <div class="step-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+                <div class="step-box">
+                    <div class="step-num">Passo 3</div>
+                    <p>Receba um roteiro pronto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7️⃣ PROVA SOCIAL SIMPLES -->
+    <section class="social-proof">
+        <div class="container container-sm">
+            <div class="testimonial-box">
+                <div class="quote-icon">"</div>
+                <p>Eu sempre tive ideias, mas nunca conseguia estruturar.<br>Com o Método R5 ficou muito mais fácil transformar reflexão em conteúdo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8️⃣ ANCORAGEM DE VALOR E 9️⃣ CTA FINAL -->
+    <section id="oferta" class="offer">
+        <div class="container container-sm offer-container">
+            <h2 class="section-title text-center">Quanto vale ter clareza para criar conteúdo todos os dias?</h2>
+            
+            <p class="anchor-text">Um estrategista de conteúdo pode custar centenas de reais por sessão.</p>
+            <p class="offer-desc">Mas você pode acessar o agente completo por apenas:</p>
+            
+            <div class="price-box">
+                <div class="price">$ 3,48</div>
+                <span class="payment-type">Pagamento único.</span>
+            </div>
+            
+            <a href="https://pay.cakto.com.br/awg5gzv_800999" class="cta-button large pulse" target="_blank">Quero acessar o Método R5</a>
+            <p class="subtext">Acesso imediato após a compra.</p>
+        </div>
+    </section>
+
+    <script>
+        const canvas = document.getElementById("space");
+        const ctx = canvas.getContext("2d");
+        let cw = canvas.width = window.innerWidth;
+        let ch = canvas.height = window.innerHeight;
+        const numStars = 400;
+        const stars = [];
+        
+        for (let i = 0; i < numStars; i++) {
+            stars.push({
+                x: Math.random() * cw - cw / 2,
+                y: Math.random() * ch - ch / 2,
+                z: Math.random() * cw
+            });
+        }
+        
+        function draw() {
+            ctx.fillStyle = "rgba(3, 3, 5, 0.3)";
+            ctx.fillRect(0, 0, cw, ch);
+            const cx = cw / 2;
+            const cy = ch / 2;
+            
+            for (let i = 0; i < numStars; i++) {
+                const star = stars[i];
+                star.z -= 0.5; // Velocidade das estrelas
+                if (star.z <= 0) {
+                    star.x = Math.random() * cw - cx;
+                    star.y = Math.random() * ch - cy;
+                    star.z = cw;
+                }
+                const x = cx + (star.x / star.z) * cw;
+                const y = cy + (star.y / star.z) * cw;
+                const r = (1 - star.z / cw) * 2;
+                
+                ctx.fillStyle = "rgba(255, 255, 255, " + (1 - star.z / cw) + ")";
+                ctx.beginPath();
+                ctx.arc(x, y, r, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            requestAnimationFrame(draw);
+        }
+        
+        draw();
+        window.addEventListener('resize', () => { 
+            cw = canvas.width = window.innerWidth; 
+            ch = canvas.height = window.innerHeight; 
+        });
+    </script>
+</body>
+</html>
